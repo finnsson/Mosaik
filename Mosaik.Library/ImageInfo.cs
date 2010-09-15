@@ -7,6 +7,10 @@ namespace Mosaik.Library
 	public struct ImageInfo
 	{
 		/// <summary>
+		/// Path to original image.
+		/// </summary>
+		public String path;
+		/// <summary>
 		/// Width of original image.
 		/// </summary>
 		public int width;
