@@ -8,7 +8,7 @@ namespace Mosaik.Library
 		}
 		
 		public IModelDB ModelDB() {
-			throw new NotImplementedException();
+			return new ModelDB("URI=file:MosaikDB.db");
 		}
 		
 		public IGenerateImage GenerateImage() {
