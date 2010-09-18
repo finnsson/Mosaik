@@ -39,4 +39,10 @@
     <Compile Include="AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\Mosaik.Library\Mosaik.Library.csproj">
+      <Project>{53CC413B-4604-48BD-B775-919FEBB82C25}</Project>
+      <Name>Mosaik.Library</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

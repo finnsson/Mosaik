@@ -1,3 +1,5 @@
+.pidb
+test-results/
 bin/
 *.userprefs
 IDE.session

@@ -5,12 +5,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mosaik.Console", "Mosaik.Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mosaik.Library", "Mosaik.Library\Mosaik.Library.csproj", "{53CC413B-4604-48BD-B775-919FEBB82C25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mosaik.Library.Test", "Mosaik.Library.Test\Mosaik.Library.Test.csproj", "{2AA027FA-C2F9-497F-8BC1-2489BD050FF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AA027FA-C2F9-497F-8BC1-2489BD050FF9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2AA027FA-C2F9-497F-8BC1-2489BD050FF9}.Debug|x86.Build.0 = Debug|Any CPU
+		{2AA027FA-C2F9-497F-8BC1-2489BD050FF9}.Release|x86.ActiveCfg = Release|Any CPU
+		{2AA027FA-C2F9-497F-8BC1-2489BD050FF9}.Release|x86.Build.0 = Release|Any CPU
 		{53CC413B-4604-48BD-B775-919FEBB82C25}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{53CC413B-4604-48BD-B775-919FEBB82C25}.Debug|x86.Build.0 = Debug|Any CPU
 		{53CC413B-4604-48BD-B775-919FEBB82C25}.Release|x86.ActiveCfg = Release|Any CPU

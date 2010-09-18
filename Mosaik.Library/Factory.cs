@@ -3,12 +3,14 @@ namespace Mosaik.Library
 {
 	public class Factory
 	{
-		public Factory ()
+		String file;
+		public Factory (String fileName)
 		{
+			file = fileName;
 		}
 		
 		public IModelDB ModelDB() {
-			return new ModelDB("URI=file:MosaikDB.db");
+			return new Db4oModel(file);
 		}
 		
 		public IGenerateImage GenerateImage() {
